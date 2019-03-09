@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    width: 98%;
+    background: #F9F9F9 !important
+}
+span{
+    color:#333;
+}
+#login{
+    width: 600px;
+    min-height: 300px;
+    margin: 8% auto;
+    display: table;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+#boasvindas{
+    text-align: center;
+    padding-top: 25%;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    display: table-cell
+}
+#boasvindas img{
+width: 100%;
+}
+#form-login{
+    min-height: 300px;
+    padding: 30px;
+    background: white;
+    display: table-cell
+}
+.painelLogo, .titulo:before, .btn{
+    background: #FB9F24
+}
+.input-group{
+    margin-bottom: 10px;
+    height: 20px
+}
+.input-group span{
+    top: 0;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.titulo{
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+.acesso{
+    background: white;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+.titulo:before{
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;    
+}
+.esqueceu{
+    font-size: 12px;
+    color: #999;
+    border-bottom: 1px dashed #bbb;
+    margin-left: 20px
+}
+a:hover, .esqueceu:hover{
+    color: #555;
+    border-bottom-color: #555;
+    text-decoration: none;
+}
+.form-control{
+    height: 55px;
+    font-size: 20px;
+    border-left: 0px;
+    box-shadow: none;
+}
+.form-control, .input-group-addon{
+    background:white;
+    border: 0
+}
+.input-group{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.form-control:hover{
+    border-color: red !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.conectado{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 8px
+}
+.entrada{
+    margin-top: 20px
+}
+.btn{
+    border: none;
+}
+.btn:hover, .btn:active, .btn:visited, button{
+    outline: none;
+    background: #F48E04
+}
+.meio{
+    height: 34px;
+    float: left;
+    border-left: 1px solid rgba(194, 194, 194, 0.31);
+    position: absolute;
+    z-index: 9999;
+    top: 19%;
+}
+.logo{
+    text-indent: -9999px;
+    display: inline-block;
+    overflow: hidden;
+}
+.programasul-icon{
+    width:132px;
+    height:32px;
+    background:url('../img/logo_programasul.png') no-repeat;
+    float:right;
+    margin-top:5px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=6);
+}
+.programasul-icon:hover{
+    opacity:1;
+}

@@ -1,0 +1,118 @@
+html{
+    height: 98%
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 53px;
+}
+footer{
+    background: #F8F8F8;
+    border-top: solid 1px #e7e7e7;
+    margin-bottom: -11px;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+textarea{
+    height: 100px !important
+}
+
+.selectrans{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+/*Logo programasul na Footer*/
+a.logo_programasul{
+    text-indent: -9999px;
+    display: inline-block;
+    float: none;
+    margin-top: -7px;
+    overflow: hidden;
+    width: 96px;
+    height: 30px;
+    background: url(../img/logoProgramasul.png) no-repeat 0 0;
+}
+.clear{
+    clear: both
+}
+/*
+*   NAV
+*/
+.navbar{
+    border-radius: 0px ;
+    border: none;
+    border-bottom: solid 3px #999999;
+    background:#FB9F24; 
+}
+.navbar a{
+    color: white; 
+}
+.navbar li a:hover, .nav .open>a, .navbar .active{
+    background: #F48E04 !important
+}
+.navbar-brand {
+    color: #131304 !important;
+}
+.navbar-brand:hover {
+    color: #1C1C01 !important;
+}
+/*
+*  Bootstrap 
+*/
+.thumbnail>img {
+    max-height: 350px !important;
+}
+
+.bs-callout .page-header{
+    border-color: #D8E6F1;
+}
+.bs-callout {
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #78B1DD;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.row{
+    padding: 10px 0;
+}
+.input-group{
+    padding: 10px 0;
+    width: 100%
+}
+/*
+*  Tabela Bootstrap 
+*/
+table.dataTable tr.odd:hover > td,
+table.dataTable tr.even:hover > td{ 
+    background-color: rgba(97, 97, 97, 0.03);
+}
+table.dataTable td{
+    vertical-align: middle !important;
+}
+td i.fa{
+    margin: 5px
+}
+/*
+*   RELATORIO
+*/
+
+tfoot{
+    font-weight: bold;
+    font-size: 20px;
+}
+tfoot td[colspan="6"]{
+    text-align: right
+}

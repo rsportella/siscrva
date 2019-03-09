@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav-tabs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+td, th{
+    vertical-align: middle !important
+}
+td select{
+    width: 200px !important
+}
+td .fa{
+    margin: 5px
+}
+.btnNone{
+    background: none;
+    border: none;
+}
+.navbar {
+    border-radius: 0 0 8px 8px !important;
+    background: rgba(34, 34, 34, 0.13)!important;
+    border-color: rgba(34, 34, 34, 0.13)!important;
+}
+.acao{
+    width: 23%
+}
+tr .acao i{
+    visibility: hidden
+}
+tr:hover .acao i{
+    visibility: visible
+}
